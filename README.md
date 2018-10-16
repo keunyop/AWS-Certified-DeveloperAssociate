@@ -11,4 +11,10 @@
 <blockquote>
 <p>RDS:  Relational Database Service</p>
 </blockquote>
+<h3 id="a-user-has-configured-elb.-which-of-the-below-mentioned-protocols-the-user-can-configure-for-elb-health-checks-while-setting-up-elb">2. A user has configured ELB. Which of the below mentioned protocols the user can configure for ELB health checks while setting up ELB?</h3>
+<p>An ELB performs a health check on its instances to ensure that it diverts traffic only to healthy instances.<br>
+The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols.</p>
+<blockquote>
+<p>ELB: Elastic Load Balancer</p>
+</blockquote>
 
