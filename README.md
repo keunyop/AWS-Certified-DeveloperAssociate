@@ -19,4 +19,7 @@ The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols.</p>
 </blockquote>
 <h3 id="the-aws-console-for-dynamodb-enables-you-to-do-all-the-following-operations-except">3. The AWS console for DynamoDB enables you to do all the following operations, except:</h3>
 <p>Import Data from other databases or from files.</p>
+<h3 id="you-need-to-develop-and-run-some-new-applications-on-aws-and-you-know-that-elastic-beanstalk-and-cloudformation-can-both-help-as-a-deployment-mechanism-for-a-broad-range-of-aws-resources.-which-of-the-following-statements-best-describes-the-differences-between-elastic-beanstalk-and-cloudformation">4. You need to develop and run some new applications on AWS and you know that Elastic Beanstalk and CloudFormation can both help as a deployment mechanism for a broad range of AWS resources. Which of the following statements best describes the differences between Elastic Beanstalk and CloudFormation?</h3>
+<p>CloudFormation is much more powerful than Elastic Beanstalk, because you can actually design and script custom resources.</p>
+<p>AWS Elastic Beanstalk provides an environment to easily develop and run applications in the could. It is integrated with developer tools and provides a one-stop experience for you to manage the lifecycle of your applications. AWS CloudFormation is a convenient deployment mechanism for a broad range of AWS resources.</p>
 
