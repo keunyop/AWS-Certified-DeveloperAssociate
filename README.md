@@ -17,4 +17,6 @@ The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols.</p>
 <blockquote>
 <p>ELB: Elastic Load Balancer</p>
 </blockquote>
+<h3 id="the-aws-console-for-dynamodb-enables-you-to-do-all-the-following-operations-except">3. The AWS console for DynamoDB enables you to do all the following operations, except:</h3>
+<p>Import Data from other databases or from files.</p>
 
