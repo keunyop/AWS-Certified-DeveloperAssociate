@@ -25,4 +25,10 @@ The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols.</p>
 <h3 id="which-one-of-the-following-operations-is-not-a-dynamodb-operation">5. Which one of the following operations is NOT a DynamoDB operation?</h3>
 <p>BatchDeleteItem.</p>
 <p>In DynamoDB, DeleteItem deletes a single item in a table by primary key, but BatchDeleteItem doesn’t exist.</p>
+<h3 id="in-amazon-ec2-which-of-the-following-is-the-type-of-monitoring-data-for-amazon-ebs-volumes-that-is-available-automatically-in-5-minute-periods-at-no-charge">6. In Amazon EC2, which of the following is the type of monitoring data for Amazon EBS volumes that is available automatically in 5-minute periods at no charge?</h3>
+<p>Basic.</p>
+<p>Basic is the type of monitoring data (for Amazon EBS volumes) which is available automatically in 5-minute periods at no charge called.</p>
+<blockquote>
+<p>EBS: Elastic Block Store</p>
+</blockquote>
 
