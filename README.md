@@ -31,4 +31,11 @@ The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols.</p>
 <blockquote>
 <p>EBS: Elastic Block Store</p>
 </blockquote>
+<h3 id="examkiller-with-aws-account-id-111122223333-has-created-50-iam-users-for-its-organizations-employees.-examkiller-wants-to-make-the-aws-console-login-url-for-all-iam-users-as-httpsexamkiller.signin.aws.amazon.comconsole.-how-can-this-be-configured">7. ExamKiller (with AWS account ID 111122223333) has created 50 IAM users for its organization’s employees. ExamKiller wants to make the AWS console login URL for all IAM users as: <a href="https://examkiller.signin.aws.amazon.com/console/">https://examkiller.signin.aws.amazon.com/console/</a>. How can this be configured?</h3>
+<p>It is not possible to have capital letters as a part of the alias name.</p>
+<p>If a user wants the URL of the AWS IAM sign-in page to have the company name instead of the AWS account ID, he can create an alias for his AWS account ID. The alias must be unique across all Amazon Webservices products and contain only digits, lowercase letters, and hyphens.</p>
+<blockquote>
+<p>IAM: Identity and Access Management<br>
+bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.</p>
+</blockquote>
 
