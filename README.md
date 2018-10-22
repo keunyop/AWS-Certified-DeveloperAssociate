@@ -37,6 +37,9 @@ If a user wants the URL of the AWS IAM sign-in page to have the company name ins
 > bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.
 
 ### 8. When AutoScaling is launching a new instance based on conditions, which of the below mentioned policies will it follow?
+Launch an instance in the AZ with the fewest instances.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTcwMDYzNSwtOTU3MjAzMjc2XX0=
+eyJoaXN0b3J5IjpbNTM4OTcwODkyLC05NTcyMDMyNzZdfQ==
 -->
