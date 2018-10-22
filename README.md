@@ -36,7 +36,7 @@ If a user wants the URL of the AWS IAM sign-in page to have the company name ins
 > IAM: Identity and Access Management
 > bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.
 
-### 8. 
+### 8. When AutoScaling is launching a new instance based on conditions, which of the below mentioned policies will it follow?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzIwMzI3Nl19
+eyJoaXN0b3J5IjpbMTQzOTcwMDYzNSwtOTU3MjAzMjc2XX0=
 -->
