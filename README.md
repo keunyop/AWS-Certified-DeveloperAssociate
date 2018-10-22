@@ -39,8 +39,8 @@ If a user wants the URL of the AWS IAM sign-in page to have the company name ins
 ### 8. When AutoScaling is launching a new instance based on conditions, which of the below mentioned policies will it follow?
 Launch an instance in the AZ with the fewest instances.
 
-AutoScaling attempts to distribute instances ev
+AutoScaling attempts to distribute instances evenly between the Availability Zones that are enabled for the user's AutoScaling group. Auto Scaling does this by attempting to launch new instances in the Availability Zone with the fewest instances.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDU3NTY1Nyw1Mzg5NzA4OTIsLTk1Nz
-IwMzI3Nl19
+eyJoaXN0b3J5IjpbNDQ4MzkyNzcsNTM4OTcwODkyLC05NTcyMD
+MyNzZdfQ==
 -->
