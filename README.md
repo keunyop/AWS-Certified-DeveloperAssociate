@@ -40,3 +40,6 @@ bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.</
 <p>Launch an instance in the AZ with the fewest instances.</p>
 <p>AutoScaling attempts to distribute instances evenly between the Availability Zones that are enabled for the user’s AutoScaling group. Auto Scaling does this by attempting to launch new instances in the Availability Zone with the fewest instances.</p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMTAxMzcyMDddfQ==
+-->
