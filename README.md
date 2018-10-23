@@ -41,9 +41,11 @@ bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.</
 <p>AutoScaling attempts to distribute instances evenly between the Availability Zones that are enabled for the user’s AutoScaling group. Auto Scaling does this by attempting to launch new instances in the Availability Zone with the fewest instances.</p>
 
 ### 9. How does Amazon SQS allow multiple readers to access the same message queue without losing messages or processing them many times?
+Amazon SQS queue has a configurable visibility timeout.
 
-> SQS : 
+Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is re
+> SQS : Simple Queue Service
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUyMjgzMDMsLTEwMTAxMzcyMDddfQ
+eyJoaXN0b3J5IjpbLTEzNDM0NTc4MjcsLTEwMTAxMzcyMDddfQ
 ==
 -->
