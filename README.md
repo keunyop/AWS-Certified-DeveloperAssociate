@@ -43,9 +43,8 @@ bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.</
 ### 9. How does Amazon SQS allow multiple readers to access the same message queue without losing messages or processing them many times?
 Amazon SQS queue has a configurable visibility timeout.
 
-Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is re
+Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is read from a queue, it will not be visible to any other reader. As long as the amount of time that it takes to process the message is less than the visibility timeout, every message will be processed and deleted. 
 > SQS : Simple Queue Service
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM0NTc4MjcsLTEwMTAxMzcyMDddfQ
-==
+eyJoaXN0b3J5IjpbLTY4Njc1ODM5LC0xMDEwMTM3MjA3XX0=
 -->
