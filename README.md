@@ -41,10 +41,17 @@ bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.</
 <h3 id="when-autoscaling-is-launching-a-new-instance-based-on-conditions-which-of-the-below-mentioned-policies-will-it-follow">8. When AutoScaling is launching a new instance based on conditions, which of the below mentioned policies will it follow?</h3>
 <p>Launch an instance in the AZ with the fewest instances.</p>
 <p>AutoScaling attempts to distribute instances evenly between the Availability Zones that are enabled for the user’s AutoScaling group. Auto Scaling does this by attempting to launch new instances in the Availability Zone with the fewest instances.</p>
-<h3 id="how-does-amazon-sqs-allow-multiple-readers-to-access-the-same-message-queue-without-losing-messages-or-processing-them-many-times">9. How does Amazon SQS allow multiple readers to access the same message queue without losing messages or processing them many times?</h3>
-<p>Amazon SQS queue has a configurable visibility timeout.</p>
-<p>Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is read from a queue, it will not be visible to any other reader. As long as the amount of time that it takes to process the message is less than the visibility timeout, every message will be processed and deleted.  In the event that the component processing the message fails or becomes unavailable, the message will again become visible to any component reading the queue once the visibility timeout ends. This allows you to have many components all reading messages from the same queue, with each working to process different messages.</p>
+<h3 id="how-does-amazon-sqs-allow-multiple-readers-to-access-the-same-message-queue-without-losing-messages-or-processing-them-many-times">
+9. How doesAmazon SQS allow multiple readers to access the same message queue without losing messages or processing them many times?</h3>
+<p>
+Amazon SQS queue has a configurable visibility timeout.</p>
+<p>
+
+Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is read from a queue, it will not be visible to any other reader. As long as the amount of time that it takes to process the message is less than the visibility timeout, every message will be processed and deleted.  In the event that the component processing the message fails or becomes unavailable, the message will again become visible to any component reading the queue once the visibility timeout ends. This allows you to have many components all reading messages from the same queue, with each working to process different messages.</p>
 <blockquote>
-<p>SQS : Simple Queue Service</p>
+<p>  SQS : Simple Queue Service</p>
 </blockquote>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTc1NDQ1Nzc2Ml19
+-->
