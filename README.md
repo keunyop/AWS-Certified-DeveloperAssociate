@@ -52,6 +52,7 @@ Every Amazon SQS queue has a configurable visibility timeout. For the designated
 <p>  SQS : Simple Queue Service</p>
 </blockquote>
 
+### 10. A user has created an application which sends data to a log file. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDQ1Nzc2Ml19
+eyJoaXN0b3J5IjpbLTg5ODYxNjYwOSwtNzU0NDU3NzYyXX0=
 -->
