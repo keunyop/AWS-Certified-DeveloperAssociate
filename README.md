@@ -5,6 +5,8 @@
 
 <hr>
 <hr>
+<hr>
+<hr>
 <p>AWS-Cate<br>
 AWS-Certified-DeveloperAssociate Study?<br>
 Yes, when you create a new CloudFormation template.<br>
@@ -46,16 +48,11 @@ bucket: Amazone S3 bucket is a public cloud storage resource available in AWS.</
 <p>
 Amazon SQS queue has a configurable visibility timeout.</p>
 <p>
-
-Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is read from a queue, it will not be visible to any other reader. As long as the amount of time that it takes to process the message is less than the visibility timeout, every message will be processed and deleted.  In the event that the component processing the message fails or becomes unavailable, the message will again become visible to any component reading the queue once the visibility timeout ends. This allows you to have many components all reading messages from the same queue, with each working to process different messages.</p>
+</p><p>Every Amazon SQS queue has a configurable visibility timeout. For the designated amount of time after a message is read from a queue, it will not be visible to any other reader. As long as the amount of time that it takes to process the message is less than the visibility timeout, every message will be processed and deleted.  In the event that the component processing the message fails or becomes unavailable, the message will again become visible to any component reading the queue once the visibility timeout ends. This allows you to have many components all reading messages from the same queue, with each working to process different messages.</p>
 <blockquote>
 <p>  SQS : Simple Queue Service</p>
 </blockquote>
+<h3 id="a-user-has-created-an-application-which-sends-data-to-a-log-file.-the-server-hosting-the-log-files-can-be-unavailable-due-to-any-reason.-the-user-wants-to-make-it-so-that-whenever-the-log-server-is-up-it-should-be-receiving-the-messages.-which-of-the-below-mentioned-aws-services-helps-achieve-this-functionality">10. A user has created an application which sends data to a log file. The server hosting the log files can be unavailable due to any reason. The user wants to make it so that whenever the log server is up it should be receiving the messages. Which of the below mentioned AWS services helps achieve this functionality?</h3>
+<p>AWS Simple Queue Service</p>
+<p>Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuing service. SQS provides a simple and cost-effective way to decouple the components of an application. The user can use SQS to transmit any volume of data without losing messages or requiring other services to always be available. Using SQS, the application has to just send the data to SQS and SQS transmits it to the log file whenever it is available.</p>
 
-### 10. A user has created an application which sends data to a log file. The server hosting the log files can be unavailable due to any reason. The user wants to make it so that whenever the log server is up it should be receiving the messages. Which of the below mentioned AWS services helps achieve this functionality?
-AWS Simple Queue Service
-
-Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuing service. SQS provides a simple and cost-effective way to decouple the components of an application. The user can use SQS to transmit any volume of data without losing messages or requiring other services to always be available. Using SQS, the application has to just send the data to SQS and SQS transmits it to the log file whenever it is available.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTE4MzEyOSwtNzU0NDU3NzYyXX0=
--->
