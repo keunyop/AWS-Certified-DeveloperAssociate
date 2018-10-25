@@ -55,7 +55,7 @@ Every Amazon SQS queue has a configurable visibility timeout. For the designated
 ### 10. A user has created an application which sends data to a log file. The server hosting the log files can be unavailable due to any reason. The user wants to make it so that whenever the log server is up it should be receiving the messages. Which of the below mentioned AWS services helps achieve this functionality?
 AWS Simple Queue Service
 
-Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuing service. SQS provides a simple and cost-effective way to decouple the components of an application. The user can use SQS to transmit any volume of data without losing messages or requiring other 
+Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuing service. SQS provides a simple and cost-effective way to decouple the components of an application. The user can use SQS to transmit any volume of data without losing messages or requiring other services to always be available. Using SQS, the application has to just send the data to SQS and SQS transmits it to the log file whenever it is available.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI4MzIxNjcsLTc1NDQ1Nzc2Ml19
+eyJoaXN0b3J5IjpbMjExMTE4MzEyOSwtNzU0NDU3NzYyXX0=
 -->
