@@ -52,7 +52,7 @@ Every Amazon SQS queue has a configurable visibility timeout. For the designated
 <p>  SQS : Simple Queue Service</p>
 </blockquote>
 
-### 10. A user has created an application which sends data to a log file. 
+### 10. A user has created an application which sends data to a log file. The server hosting the log files can be unavailable due to any reason. The user wants to make it so that whenever the log server is up it should be receiving the messages. Which of the below mentioned AWS services helps achieve this functionality?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODYxNjYwOSwtNzU0NDU3NzYyXX0=
+eyJoaXN0b3J5IjpbLTE2MzI4NzgwOTUsLTc1NDQ1Nzc2Ml19
 -->
