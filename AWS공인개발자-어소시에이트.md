@@ -41,3 +41,8 @@ Basic은 Amazon EBS 볼륨용 모니터링 데이터의 유형으로 5분 동안
 > IAM: Identity and Access Management
 
 > bucket: Amazon S3 bucket is public cloud storage resource available in AWS
+
+### 8. AutoScaling이 조건을 기반으로 새 인스턴스를 시작하면 어떤 정책이 정용됩니까?
+가장 적은 인스턴스를 AZ에서 인스턴스를 실행합니다.
+
+AutoScaling은 사용자의 AutoScaling 그룹에 대해 사용 가능한 가용 영역간에 인스턴스를 균등하게 배포하려고 시도합니다. Auto Scaling은 가용성이 가장 적은 인스턴스로 가용성 영역에서 새 인스턴스를 시작하려고 시도함으로써이를 수행합니다.

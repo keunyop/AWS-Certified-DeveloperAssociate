@@ -55,3 +55,6 @@ Every Amazon SQS queue has a configurable visibility timeout. For the designated
 AWS Simple Queue Service
 
 Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuing service. SQS provides a simple and cost-effective way to decouple the components of an application. The user can use SQS to transmit any volume of data without losing messages or requiring other services to always be available. Using SQS, the application has to just send the data to SQS and SQS transmits it to the log file whenever it is available.
+
+### 11. You run an ad-supported photo sharing website using S3 to serve photos to visitors of your site. At some point you find out that other sites have been linking to the photos on your site, causing loss to your business. What is an effective method to mitigate this?
+Remove public read access and use signed URLs with expiry dates.
